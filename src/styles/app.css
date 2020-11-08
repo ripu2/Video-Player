@@ -1,3 +1,17 @@
+body{
+    background: #373a40;
+}
+form{
+    display: inline !important;
+}
+input{
+    background: black !important;
+    color: whitesmoke !important;
+    
+}
+.top{
+    background:#373a40 !important;
+}
 
 .video-item{
     display: flex !important;

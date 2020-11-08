@@ -1,5 +1,5 @@
 import React from 'react';
-
+import '../styles/app.css';
 class SearchBar extends React.Component {
   state = { term: '' };
   onInputChange = event => {
@@ -13,7 +13,7 @@ class SearchBar extends React.Component {
   render() {
     return (
       <>
-        <div className="search-bar ui segment">
+        <div className="top search-bar ui segment">
           <form className="ui form" onSubmit={this.onFormSubmit}>
             <div className="field">
               <label>Searc Video</label>
