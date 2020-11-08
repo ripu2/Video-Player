@@ -11,7 +11,7 @@ class videoDetails extends React.Component {
       <>
         <div className="ui segment">
           <div className="ui embed">
-            <iframe src={videoSrc} />
+            <iframe title="video player" src={videoSrc} />
           </div>
           <h4 className="ui header">{this.props.video.snippet.title}</h4>
           <p>{this.props.video.snippet.description}</p>

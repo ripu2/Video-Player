@@ -5,7 +5,11 @@ class VideoList extends React.Component {
     const renderdList = this.props.videos.map(video => {
       return (
         <div className="ui relaxed divided list">
-          <VideoItem onVideoSelect={this.props.onVideoSelect} video={video} />
+          <VideoItem
+            key={video.id.videoId}
+            onVideoSelect={this.props.onVideoSelect}
+            video={video}
+          />
         </div>
       );
     });
